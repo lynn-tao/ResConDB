@@ -13,4 +13,4 @@ The processing files generate an H5 dataset of contact maps in compact form. Add
          [directory2]/[25C8.pdb]
          ...)
 3. Run processing code, passing in the desired paths of output files, the plain text file of pdbs, and filtering parameters
-    `dscript process --pdb_files [pdb_file] --filter_chain_minlen [min_len] --filter_chain_maxlen [max_len] --h5_name [dataset path] --fasta [fasta path] --tsv [tsv path] --distance_threshold [x angstroms] --discontinuity_threshold [percentage threshold] --interaction_threshold [percentage threshold]`
+    `process --pdb_files [pdb_file] --filter_chain_minlen [min_len] --filter_chain_maxlen [max_len] --h5_name [dataset path] --fasta [fasta path] --tsv [tsv path] --distance_threshold [x angstroms] --discontinuity_threshold [percentage threshold] --interaction_threshold [percentage threshold]`
